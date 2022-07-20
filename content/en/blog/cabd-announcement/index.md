@@ -7,7 +7,7 @@ lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 weight: 50
 images: ["say-hello-to-doks.png"]
-contributors: ["Henk Verlinde"]
+contributors: ["Nick Mazany-Wright"]
 ---
 The launch of the CABD web tool invites users to explore barrier and hydrographic data directly through their browser – no extra software required. Currently, data is available for Alberta, Atlantic Canada (NB, NL, NS, PEI), and seven additional regions across the country, and additional data is scheduled for release on a monthly basis until national coverage is complete in summer 2022.
 

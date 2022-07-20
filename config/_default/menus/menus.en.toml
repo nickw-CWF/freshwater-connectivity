@@ -1,3 +1,8 @@
+[[watershed-planning]]
+  name = "watershed-planning"
+  weight = 10
+  url = "/watershed-planning/"
+
 [[docs]]
   name = "Prologue"
   weight = 10
@@ -30,8 +35,7 @@
 
 [[main]]
   name = "Science"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
+  url = "/science/"
   weight = 10
 
 # [[main]]
@@ -42,27 +46,40 @@
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "CABD"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+  weight = 20
+  identifier = "cabd"
+  url = "/cabd/"
 
 [[main]]
   name = "Watershed Planning"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+  weight = 30
+  identifier = "watershed-planning"
+  url = "/watershed-planning/"
 
 [[main]]
-  name = "Tutorial"
+  name = "Alberta"
   weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+  identifier = "alberta"
+  url = "/watershed-planning/alberta/"
+  parent = "watershed-planning"
+
+  [[main]]
+  name = "British Columbia"
+  weight = 60
+  identifier = "british-columbia"
+  url = "/watershed-planning/british-columbia/"
+  parent = "watershed-planning"
+
+# [[main]]
+  # name = "Tutorial"
+  # weight = 50
+  # identifier = "tutorial"
+  # url = "https://getdoks.org/tutorial/introduction/"
+  # parent = "get-started"
 
 [[social]]
   name = "GitHub"
