@@ -1,8 +1,3 @@
-[[watershed-planning]]
-  name = "watershed-planning"
-  weight = 10
-  url = "/watershed-planning/"
-
 [[docs]]
   name = "Prologue"
   weight = 10
